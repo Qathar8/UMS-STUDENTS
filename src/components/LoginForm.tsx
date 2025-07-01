@@ -36,7 +36,7 @@ const LoginForm: React.FC<LoginFormProps> = ({ onLogin, isLoading, error }) => {
           <div className="inline-flex items-center justify-center w-16 h-16 bg-white rounded-full shadow-lg mb-4">
             <GraduationCap className="h-8 w-8 text-purple-600" />
           </div>
-          <h1 className="text-3xl font-bold text-white mb-2">UMS Portal</h1>
+          <h1 className="text-3xl font-bold text-white mb-2">UMS Student Portal</h1>
           <p className="text-purple-100">University Management System</p>
         </div>
 
@@ -162,7 +162,7 @@ const LoginForm: React.FC<LoginFormProps> = ({ onLogin, isLoading, error }) => {
             <p className="text-xs text-gray-500">
               Need help? Contact{' '}
               <button className="text-purple-600 hover:text-purple-700">
-                support@ums.edu
+                support@ums.gmail
               </button>
             </p>
           </div>
